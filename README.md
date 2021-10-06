@@ -1,7 +1,6 @@
-Mac laravel migrate solution:
+Laravel Commands
 
-Add this in config > database
-DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock
+Migrate new table field
+php artisan make:migration add_field_to_table_name --table=table_name
 
-Then run on terminal: 
-php artisan optimize OR php artisan config:cache
+
