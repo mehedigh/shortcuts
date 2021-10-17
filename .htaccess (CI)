@@ -33,7 +33,7 @@
 </IfModule>
 
 
-## HTTPS htaccess
+<h4> HTTPS htaccess </h4>
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
